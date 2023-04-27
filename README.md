@@ -6,4 +6,3 @@ Rancher Cluster Templates to provision RKE2 Kubernetes clusters
 
 * Go to the Apps Marketplace in the `local` cluster in Rancher
 * Add a new Chart Repository as a Git URL https://github.com/rkgupta76/rancher-cluster-templates-tested.git (branch aws)  without authentication
-* 
