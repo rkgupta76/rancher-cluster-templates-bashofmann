@@ -6,3 +6,5 @@ icon: https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Servi
 annotations:
   catalog.cattle.io/type: cluster-template
   catalog.cattle.io/namespace: fleet-default
+labels:
+  demo-app: install  
