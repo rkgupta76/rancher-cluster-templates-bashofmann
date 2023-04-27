@@ -1,7 +1,7 @@
 # cluster specific values
 cluster:
   # specify cluster name
-  name: single-node-rke2-124
+  name: single-node-rke2-125
 
   # specify cluster labels
   labels: {}
