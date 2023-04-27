@@ -1,0 +1,12 @@
+{{- $clustername := .Values.cluster.name }}
+apiVersion: rke-machine-config.cattle.io/v1
+kind: Amazonec2Config
+metadata:
+  name: {{ $clustername }}-allinone
+  namespace: fleet-default
+instanceType: t3a.large
+region: ap-south-1
+subnetId: subnet-54ac4f3f
+vpcId: vpc-e9e81282
+zone: a
+sshUser: ubuntu
