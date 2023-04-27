@@ -4,7 +4,7 @@ cluster:
   name: single-node-k3s-125
 
   # specify cluster labels
-  labels: {}
+  labels: {demo-app: install}
 
   # specify cluster annotations
   annotations: {}
